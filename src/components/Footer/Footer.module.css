@@ -1,0 +1,26 @@
+.forwardBackward{
+    position: absolute;
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+button {
+    background-color: #0e3147;
+    margin: 6px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid #0e3147;
+    color: whitesmoke;
+    font-weight: 300;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(23, 189, 14);
+    border: 2px solid rgb(10, 215, 75);
+  }

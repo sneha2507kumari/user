@@ -1,0 +1,64 @@
+.cardWrapper {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cardWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #f0f0f0, #e8e8e8);
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.userName {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.userDetail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.cardId {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  font-size: 1rem;
+  color: #5d6d7e;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background-color: #f7f9fa;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardId:hover {
+  background-color: #eaf2f8;
+  color: #2c3e50;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,38 @@
+.formWrapper {
+    width: 70%;
+    max-width: 800px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formWrapper > div {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+  }
+  
+  .userBtn {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .userBtn:hover {
+    background-color: #45a049;
+  }
+  
