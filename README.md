@@ -21,6 +21,3 @@ run build : npm run build
 * CSS Libraay : Material Ui
 * React-router-dom : For Routing and Navigation 
 
-# Live WebAPP :-
-https://usermanagement-rahulraj.netlify.app/
-
